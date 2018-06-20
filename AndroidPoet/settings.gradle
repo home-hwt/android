@@ -1,0 +1,1 @@
+include ':app', ':apt', ':viewfinder-annotation', ':viewfinder', ':viewfinder-compiler'

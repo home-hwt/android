@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/xuguohong/Documents/svn/self/AndroidPoet/app/libs/apt.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68c7ab1e7ef35b8c19b0731f250a4e53ba3428d6">
+        <dex dex="/Users/xuguohong/Documents/svn/self/AndroidPoet/app/build/intermediates/pre-dexed/debug/apt_dcc96ce30002900c9c1f66b08e59162424dd1eae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xuguohong/Documents/svn/self/AndroidPoet/viewfinder/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="932425426df0128a6b33a1863f125ec989f2cbbb">
+        <dex dex="/Users/xuguohong/Documents/svn/self/AndroidPoet/app/build/intermediates/pre-dexed/debug/classes_a039c42db2b0b336dba83e0cdb11c8031574c171.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xuguohong/Documents/svn/self/AndroidPoet/viewfinder-annotation/build/libs/viewfinder-annotation.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4c5fbfdec4ec2cc743eedd11fd3500158643a11">
+        <dex dex="/Users/xuguohong/Documents/svn/self/AndroidPoet/app/build/intermediates/pre-dexed/debug/viewfinder-annotation_5eb4089b1ac203e4a90cbbb73b8c7fbea502dd89.jar" />
+    </item>
+
+</items>
