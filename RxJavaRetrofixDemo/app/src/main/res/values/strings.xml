@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RxJavaRetrofixDemo</string>
+    <string name="request">请求</string>
+</resources>
