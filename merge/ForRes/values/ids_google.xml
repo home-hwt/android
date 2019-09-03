@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="home" />
+    <item type="id" name="line1" />
+    <item type="id" name="line3" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="tag_transition_group" />
+    <item type="id" name="text" />
+    <item type="id" name="text2" />
+    <item type="id" name="title" />
+    <item type="id" name="up" />
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="spacer">false</item>
+    <item type="id" name="parentPanel">false</item>
+    <item type="id" name="contentPanel">false</item>
+    <item type="id" name="scrollIndicatorUp">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="textSpacerNoTitle">false</item>
+    <item type="id" name="textSpacerNoButtons">false</item>
+    <item type="id" name="scrollIndicatorDown">false</item>
+    <item type="id" name="customPanel">false</item>
+    <item type="id" name="custom">false</item>
+    <item type="id" name="topPanel">false</item>
+    <item type="id" name="title_template">false</item>
+    <item type="id" name="alertTitle">false</item>
+    <item type="id" name="titleDividerNoCustom">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="submenuarrow">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="select_dialog_listview">false</item>
+    <item type="id" name="com_facebook_fragment_container">false</item>
+    <item type="id" name="confirmation_code">false</item>
+    <item type="id" name="progress_bar">false</item>
+    <item type="id" name="com_facebook_device_auth_instructions">false</item>
+    <item type="id" name="cancel_button">false</item>
+    <item type="id" name="com_facebook_login_fragment_progress_bar">false</item>
+    <item type="id" name="com_facebook_smart_instructions_0">false</item>
+    <item type="id" name="com_facebook_smart_instructions_or">false</item>
+    <item type="id" name="com_facebook_body_frame">false</item>
+    <item type="id" name="com_facebook_tooltip_bubble_view_top_pointer">false</item>
+    <item type="id" name="com_facebook_button_xout">false</item>
+    <item type="id" name="com_facebook_tooltip_bubble_view_text_body">false</item>
+    <item type="id" name="com_facebook_tooltip_bubble_view_bottom_pointer">false</item>
+    <item type="id" name="action_container">false</item>
+    <item type="id" name="action_image">false</item>
+    <item type="id" name="action_text">false</item>
+    <item type="id" name="action0">false</item>
+    <item type="id" name="cancel_action">false</item>
+    <item type="id" name="status_bar_latest_event_content">false</item>
+    <item type="id" name="media_actions">false</item>
+    <item type="id" name="action_divider">false</item>
+    <item type="id" name="notification_main_column_container">false</item>
+    <item type="id" name="notification_main_column">false</item>
+    <item type="id" name="right_side">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="chronometer">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="notification_background">false</item>
+    <item type="id" name="right_icon">false</item>
+    <item type="id" name="actions">false</item>
+    <item type="id" name="icon_group">false</item>
+    <item type="id" name="end_padder">false</item>
+    <item type="id" name="pool_select_bg">false</item>
+    <item type="id" name="pool_center_view_id">false</item>
+    <item type="id" name="sign_in_button">false</item>
+    <item type="id" name="login_button">false</item>
+    <item type="id" name="facebook_login_bt">false</item>
+    <item type="id" name="pb_bt_login">false</item>
+    <item type="id" name="pb_bt_entergame">false</item>
+    <item type="id" name="pb_bt_pay">false</item>
+    <item type="id" name="pb_bt_logout">false</item>
+    <item type="id" name="pb_bt_subrole">false</item>
+    <item type="id" name="pb_bt_openchannel">false</item>
+    <item type="id" name="pb_bt_switchacc">false</item>
+    <item type="id" name="pb_bt_openbbs">false</item>
+    <item type="id" name="tx_sdk_msg">false</item>
+    <item type="id" name="tx_msg">false</item>
+    <item type="id" name="message">false</item>
+</resources>

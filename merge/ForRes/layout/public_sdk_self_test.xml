@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/pb_bt_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="登录" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/pb_bt_entergame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="进入游戏" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/pb_bt_pay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="支付" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/pb_bt_logout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="注销" style="?android:attr/buttonStyleSmall" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/pb_bt_subrole" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="提交角色数据" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/pb_bt_openchannel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="打开渠道个人中心" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/pb_bt_switchacc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="切换账号" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/pb_bt_openbbs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="打开论坛" style="?android:attr/buttonStyleSmall" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <TextView android:id="@id/tx_sdk_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <TextView android:id="@id/tx_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+</LinearLayout>

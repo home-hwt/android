@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/pool_select_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/pool_center_view_id" android:background="@android:color/transparent" android:layout_width="1.0dip" android:layout_height="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <com.google.android.gms.common.SignInButton android:id="@id/sign_in_button" android:layout_width="120.0dip" android:layout_height="50.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="36.0dip" android:layout_toLeftOf="@id/pool_center_view_id" android:layout_alignParentBottom="true" />
+        <com.facebook.login.widget.LoginButton android:id="@id/login_button" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="36.0dip" android:layout_toRightOf="@id/pool_center_view_id" android:layout_alignParentBottom="true" />
+        <Button android:id="@id/facebook_login_bt" android:background="@drawable/public_facebook_login" android:layout_width="120.0dip" android:layout_height="46.0dip" android:layout_marginLeft="16.0dip" android:layout_marginBottom="38.0dip" android:layout_toRightOf="@id/pool_center_view_id" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>
