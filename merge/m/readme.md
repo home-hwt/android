@@ -1,4 +1,4 @@
-、、、
+'''
   aapt package简单说明：
   -f 如果编译出来的文件已经存在，强制覆盖。
   -m 使生成的包的目录放在-J参数指定的目录。
@@ -27,4 +27,4 @@
   aapt package -f -S res -S ForRes -M AndroidManifest.xml --auto-add-overlay  -I android.jar -I constraint-layout-1.0.2.aar -F ./myres.apk
   当引用v7/v4等其它库的资源时，使用aapt编译时需要添加为依赖基础库，否则会出现以下错误
   res/values-v26/styles.xml:14: error: Error: No resource found that matches the given name: attr 'android:keyboardNavigationCluster
-、、、
+'''
