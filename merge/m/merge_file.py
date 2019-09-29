@@ -80,14 +80,18 @@ if __name__ == '__main__':
 
     merge_res_file_name = get_apk_dir_resource_path('merge_res.apk')
 
-    merge_res_sh = './m/aapt package -f -S %s -S %s -M ./m/AndroidManifest.xml --auto-add-overlay  -I ./m/android.jar -F %s' % (
+    merge_res_sh = './m/aapt package -f -S %s -S %s -M ./m/AndroidManifest.xml --auto-add-overlay  -I ./m/android.jar -I ./m/constraint-layout-1.0.2.aar -F %s' % (
             origin_res, tmp_sdk_res_path, merge_res_file_name)
+
+    print merge_res_sh
 
     decode_apk_sh = 'java -jar ./m/apktool.jar d %s -o %s/merge_res' % (merge_res_file_name, apk_dir)
 
     # 资源整合覆盖命令
     res_state = os.system('%s && %s' % (merge_res_sh, decode_apk_sh))
-    if res_state == 1:
+
+    print res_state
+    if res_state == 1 :
         print '资源整合错误'
     else:
         # 获取到整合的资源
