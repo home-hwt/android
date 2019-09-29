@@ -5,4 +5,5 @@
 # diff_patch 增量更新
 # AndroidAutoDot android AspectJ埋点
 # Android Mvp
+# merge aapt资源整合编译
 # decode_apk apk脱壳
